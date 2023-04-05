@@ -44,12 +44,13 @@ class MainActivity : AppCompatActivity() {
                 linear.setBackgroundColor(resources.getColor(R.color.noarmalw))
             }
 
-//            when {
-//                bmi_calculate < 18 -> result.text = "You're UnderWeight"
-//                bmi_calculate >= 18 && bmi_calculate < 25 -> result.text = "You're Normal Weight(Healthy)"
-//                bmi_calculate >=25 && bmi_calculate < 30 -> result.text = "You're OverWeight"
-//                bmi_calculate >= 30 -> result.text = "You're Obesity"
-//            }
+            when {
+                bmi_calculate < 18 -> result.text = "You're UnderWeight"
+                bmi_calculate >= 18 && bmi_calculate < 25 -> result.text = "You're Normal Weight(Healthy)"
+                bmi_calculate >=25 && bmi_calculate < 30 -> result.text = "You're OverWeight"
+                bmi_calculate >= 30 -> result.text = "You're Obesity"
+            }
+                println("Hello")
         }
     }
 }
