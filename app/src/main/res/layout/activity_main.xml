@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#32a899"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/bmi_text_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bmi"
+        android:textColor="@color/black"
+        android:textSize="45sp"
+        android:translationX="160dp"
+        android:translationY="90dp" />
+
+    <EditText
+        android:id="@+id/weight_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/enter_weight_in_kg"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textColor="@color/white"
+        android:textColorHint="#000000"
+        android:textSize="20sp"
+        android:translationX="90dp"
+        android:translationY="200dp" />
+
+    <EditText
+        android:id="@+id/height_id"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/enter_height_in_cm"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textColor="@color/white"
+        android:textColorHint="#000000"
+        android:textSize="20sp"
+        android:translationX="90dp"
+        android:translationY="250dp" />
+
+    <Button
+        android:id="@+id/submit_btn_id"
+        android:layout_width="216dp"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate"
+        android:textSize="24sp"
+        android:translationX="80dp"
+        android:translationY="300dp" />
+
+    <TextView
+        android:id="@+id/op_text_id"
+        android:layout_width="302dp"
+        android:layout_height="82dp"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:translationX="40dp"
+        android:translationY="350dp" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyAPP</string>
+    <string name="bmi">BMI</string>
+    <string name="calculate">CALCULATE</string>
+    <string name="enter_weight_in_kg">Enter Weight (in Kg)</string>
+    <string name="enter_height_in_cm">Enter height (in cm)</string>
+    <string name="result">Result</string>
+    <string name="bmi_img">BMI_img</string>
+</resources>
